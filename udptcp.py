@@ -1,5 +1,8 @@
 ##coded by ded
 from colorama import Fore, Back, Style
+import sys
+import getpass
+import os
 import random
 import socket
 import threading
