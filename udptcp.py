@@ -12,11 +12,11 @@ print(Fore.GREEN +"З А Г Р У З К А....")
 time.sleep(3.5)
 os.system("clear")
 
-ip = str(input("[+] IP : =>"))
-port = int(input("[+] Port : =>"))
-choice = str(input("[+] Methods TCP/UDP : =>"))
-times = int(input("[+] Packet : =>"))
-threads = int(input("[+] Threads : =>"))
+ip = str(input("[+] IP : => "))
+port = int(input("[+] Port : => "))
+choice = str(input("[+] Methods TCP/UDP : => "))
+times = int(input("[+] Packet : => "))
+threads = int(input("[+] Threads : => "))
 
 def udp():
 	data = random._urandom(1180)
